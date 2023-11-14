@@ -1,7 +1,8 @@
 const express = require('express');
 const app = express();
 
-const port = 8080;
+const port = 8080;  
+const index = require('./models');
 
 app.get('/',(req,res) => {
     res.send('Hello Page');
